@@ -202,12 +202,6 @@ class WebPush_Main {
     $subscriptions = WebPush_DB::get_subscriptions();
     $subscription_num = count($subscriptions);
     foreach ($subscriptions as $subscription) {
-      // Ignore GCM endpoints if we don't have a GCM key.
-      $isGCM = strpos($subscription->endpoint, GCM_REQUEST_URL) === 0;
-      if (!$gcmKey && $isGCM) {
-        continue;
-      }
-
       $webPush->addRecipient($subscription->endpoint, function($success) use ($subscription, &$notification_count) {
         if (!$success) {
           // If there's an error while sending the push notification,
