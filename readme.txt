@@ -1,5 +1,5 @@
-=== Web Push ===
-Contributors: marco-c-1, mozillawebapps
+=== Web Push, Next Try ===
+Contributors: marco-c-1, mozillawebapps, joernschellhaas
 Tags: web push, push, notifications, web push notifications, push notifications, desktop notifications, mobile notifications
 Requires at least: 3.5
 Tested up to: 4.5
@@ -48,6 +48,9 @@ The plugin is configurable; it is possible to modify when a visitor is prompted 
 7. Firefox notification on Linux.
 
 == Changelog ==
+= 2.0.0 =
+* Removed Google Cloud Messaging.
+
 = 1.4.0 =
 * Fix bug where multiple notifications were shown when opening the browser for sites sending notifications with a high-frequency.
 * Allow disabling the automatic generation of a Web App Manifest for users that already have one for their site.
