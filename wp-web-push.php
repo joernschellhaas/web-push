@@ -1,11 +1,11 @@
 <?php
 /*
-Plugin Name: Web Push
-Plugin URI: https://github.com/marco-c/wp-web-push
-Description: Web Push notifications for your website.
-Version: 1.4.0
-Author: Mozilla
-Author URI: https://www.mozilla.org/
+Plugin Name: Web Push, Next Try
+Plugin URI: https://github.com/joernschellhaas/web-push
+Description: Web Push notifications for your website. Forked from Mozilla Web Push, removed Google Cloud Messaging.
+Version: 2.0.0
+Author: Joern Schellhaas, Mozilla
+Author URI: https://lmprod.de/
 License: GPLv2 or later
 Text Domain: web-push
 */
